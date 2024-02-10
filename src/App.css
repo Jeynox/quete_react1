@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.carte-pokemon {
+    background-color: rgb(63, 168, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 12rem;
+    height: 15rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(108, 126, 104);
+}
+
+.image-pokemon {
+    width: 10rem;
+    background-color: white;
+    padding: 0.2rem;
+    border-radius: 20px;
+}
+
+.nom-pokemon {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: "Pixelify Sans", sans-serif;
+}
